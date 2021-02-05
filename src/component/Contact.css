@@ -1,0 +1,11 @@
+.contact {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 5em 0 5em 0;
+}
+
+.address p,
+.email p {
+  padding: 1.5em;
+}

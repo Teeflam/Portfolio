@@ -1,0 +1,15 @@
+.formation-date {
+  font-size: 1em;
+  color: #666565f1;
+}
+
+.formation-name {
+  font-size: 1.4em;
+  color: #06ade2;
+  margin-left: 1.2em;
+}
+
+.formation-describe {
+  color: #666565f1;
+  padding: 0 0 2em 0.5em;
+}

@@ -1,0 +1,16 @@
+.footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.966);
+  text-decoration: none;
+  padding: 2em;
+  text-align: center;
+}
+
+.footer > a {
+  font-size: 1.7em;
+  color: white;
+  text-decoration: none;
+}
+.footer span {
+  padding-left: 0.5em;
+}

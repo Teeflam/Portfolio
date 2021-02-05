@@ -1,0 +1,39 @@
+.skill {
+  padding-top: 6em;
+}
+
+.skill-container {
+  flex-direction: column;
+  margin-left: 10em;
+}
+
+.skill-prog-title {
+  color: #06ade2;
+  margin-bottom: 1em;
+}
+.skill-lang {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  text-align: start;
+}
+.skill-lang-flag {
+  padding-right: 2em;
+  justify-self: end;
+  padding-bottom: 3px;
+}
+@media (max-width: 960px) {
+  .skill-container {
+    margin-left: 3em;
+  }
+  .skill-prog-content {
+    color: #666565f1;
+    padding: 0 0 1em 0.4em;
+  }
+  .skill-lang {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    row-gap: 10px;
+    padding-left: 3em;
+  }
+}
