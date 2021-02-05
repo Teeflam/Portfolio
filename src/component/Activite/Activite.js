@@ -1,10 +1,10 @@
 import React from "react";
 import "./Activite.css";
-import efrei from "../assets/efreiint.png";
-import esport from "../assets/4esport.png";
-import anime1 from "../assets/minato.png";
-import anime2 from "../assets/kimetsu.png";
-import FadeInSection from "./FadeInSection";
+import efrei from "../../assets/efreiint.png";
+import esport from "../../assets/4esport.png";
+import anime1 from "../../assets/minato.png";
+import anime2 from "../../assets/kimetsu.png";
+import FadeInSection from "./../FadeInSection";
 
 export const Activite = () => {
   return (

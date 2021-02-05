@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../../assets/profile.png";
 
 import "./About.css";
 export const About = () => {

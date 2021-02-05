@@ -1,13 +1,13 @@
 import React from "react";
 import "./Projet.css";
-import late from "../assets/late.png";
-import rdv from "../assets/rdv.png";
-import fevent from "../assets/fevent.png";
-import sql from "../assets/sql.png";
-import java from "../assets/java.png";
-import unity from "../assets/unity.png";
-import react from "../assets/react.png";
-import nodejs from "../assets/nodejs.png";
+import late from "../../assets/late.png";
+import rdv from "../../assets/rdv.png";
+import fevent from "../../assets/fevent.png";
+import sql from "../../assets/sql.png";
+import java from "../../assets/java.png";
+import unity from "../../assets/unity.png";
+import react from "../../assets/react.png";
+import nodejs from "../../assets/nodejs.png";
 
 export const Projet = () => {
   return (
@@ -42,7 +42,17 @@ export const Projet = () => {
             <div className="project-text">
               <p className="project-title">Gestionnaire de RDV</p>
               <p className="project-describe">
-                Dans l'optique de passé au numérique, une application
+                Dans l'optique de pouvoir gérer plus simplement les rendez vous,
+                une application de gestion été nécessaire pour un cabinet
+                médical qui avait de plus en plus de clientèle.
+                <br />
+                L'application va permettre au médecin de pouvoir avoir tout sur
+                la main la création de nouveau client,ajouter un rendez-vous,
+                les information de la séanceet aussi un planning détaillés des
+                rendez-vous à venir.
+                <br />
+                Une partie client est aussi mis en place pour que les clients
+                voient les rendez-vous à venir
               </p>
             </div>
             <div className="project-dev">
@@ -57,11 +67,8 @@ export const Projet = () => {
           <img src={fevent} alt="Projet 3" />
           <div className="project-info">
             <div className="project-text">
-              <p className="project-title">Don't Be Late</p>
-              <p className="project-describe">
-                Dans un monde apocalyptyque vous jouer le rôle d'une élève qui
-                n'a jamais été en retard
-              </p>
+              <p className="project-title">FEvent (En cours...)</p>
+              <p className="project-describe"></p>
             </div>
             <div className="project-dev">
               <p className="project-describe">Developpement tools :</p>

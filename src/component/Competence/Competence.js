@@ -1,8 +1,8 @@
 import React from "react";
-import french from "../assets/french.png";
-import british from "../assets/british.png";
-import china from "../assets/china.png";
-import spanish from "../assets/spanish.png";
+import french from "../../assets/french.png";
+import british from "../../assets/british.png";
+import china from "../../assets/china.png";
+import spanish from "../../assets/spanish.png";
 import "./Competence.css";
 
 export const Competence = () => {

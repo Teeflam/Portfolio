@@ -19,7 +19,6 @@ export const Experience = () => {
           name="Nouvelle Peninsula Courbevoie la Défense (92400)"
           poste="Serveur"
           describe="Communication, Travail d'équipe."
-          skill=""
         />
       </div>
     </div>

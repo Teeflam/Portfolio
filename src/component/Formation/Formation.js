@@ -1,5 +1,6 @@
 import { FormationInfo } from "./FormationInfo";
 import "./Formation.css";
+
 export const Formation = () => {
   return (
     <div id="formation" className="formation">
