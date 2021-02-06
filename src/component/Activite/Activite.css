@@ -36,4 +36,18 @@
     grid-column-start: 1;
     padding-left: 1em;
   }
+
+  .activity-esport img {
+    width: 20em;
+    height: 13em;
+  }
+  .activity-picture {
+    display: flex;
+  }
+  .activity-anime1 {
+    height: 16em;
+  }
+  .activity-anime2 {
+    height: 16em;
+  }
 }

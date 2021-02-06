@@ -8,6 +8,7 @@
 }
 @media (max-width: 960px) {
   .experience-container {
-    margin-left: 3em;
+    margin: 0em;
+    width: 100%;
   }
 }

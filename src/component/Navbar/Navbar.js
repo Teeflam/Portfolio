@@ -31,7 +31,7 @@ export default function NavBar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              à Propos
+              À Propos
             </HashLink>
           </li>
           <li className="nav-item">

@@ -9,7 +9,6 @@ export const ExperienceInfo = ({ date, name, poste, describe }) => {
         <div className="experience-poste">{poste}</div>
         <div className="experience-describe">{describe}</div>
       </div>
-      <div className="experience-content"></div>
     </>
   );
 };

@@ -1,5 +1,5 @@
 .about {
-  padding-top: 5em;
+  padding-top: 7em;
 }
 .about-container {
   display: flex;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 960px) {
   .about-description {
-    width: 500px;
+    width: auto;
     text-align: center;
   }
 }

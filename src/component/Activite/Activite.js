@@ -33,7 +33,6 @@ export const Activite = () => {
           <div className="activity-picture">
             <FadeInSection>
               <img className="activity-anime1" src={anime1} alt="anime" />
-
               <img className="activity-anime2" src={anime2} alt="anime" />
             </FadeInSection>
           </div>

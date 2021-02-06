@@ -11,16 +11,16 @@ export const Competence = () => {
       <h1>Compétences </h1>
       <hr />
       <h2>Programmation :</h2>
-      <div className="skill-container">
-        <div className="skill-prog">
-          <div className="skill-prog-title">Langages de Programmation</div>
-          <p className="skill-prog-content">C , C++, C#, Java , Python</p>
-          <div className="skill-prog-title">Web Development</div>
-          <p className="skill-prog-content">
-            HTML/CSS, Javascript,PHP, Node.js, Java, React , SQL, MongoDB
-          </p>
-        </div>
+
+      <div className="skill-prog">
+        <div className="skill-prog-title">Langages de Programmation</div>
+        <p className="skill-prog-content">C , C++, C#, Java , Python</p>
+        <div className="skill-prog-title">Web Development</div>
+        <p className="skill-prog-content">
+          HTML/CSS, Javascript,PHP, Node.js, Java, React , SQL, MongoDB
+        </p>
       </div>
+
       <h2>Langue :</h2>
 
       <div className="skill-lang">

@@ -7,7 +7,7 @@ import sql from "../../assets/sql.png";
 import java from "../../assets/java.png";
 import unity from "../../assets/unity.png";
 import react from "../../assets/react.png";
-import nodejs from "../../assets/nodejs.png";
+import nodejs from "../../assets/node.png";
 
 export const Projet = () => {
   return (
@@ -30,7 +30,7 @@ export const Projet = () => {
               </p>
             </div>
             <div className="project-dev">
-              <p className="project-describe">Developpement tools :</p>
+              <p className="project-dev-tools">Developpement tools :</p>
               <img src={unity} alt="unity" />
             </div>
           </div>
@@ -56,7 +56,7 @@ export const Projet = () => {
               </p>
             </div>
             <div className="project-dev">
-              <p className="project-describe">Developpement tools :</p>
+              <p className="project-dev-tools">Development tools :</p>
               <img src={sql} width="120px" alt="sql" />
               <img src={java} alt="java" />
             </div>
@@ -71,9 +71,9 @@ export const Projet = () => {
               <p className="project-describe"></p>
             </div>
             <div className="project-dev">
-              <p className="project-describe">Developpement tools :</p>
+              <p className="project-dev-tools">Development tools :</p>
               <img src={react} alt="react" />
-              <img src={nodejs} width="100px" alt="nodejs" />
+              <img src={nodejs} alt="nodejs" />
             </div>
           </div>
         </div>
