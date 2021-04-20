@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { HashLink } from "react-router-hash-link";
-import logo from "../../assets/logo.png";
+import React, { useState } from 'react'
+import { HashLink } from 'react-router-hash-link'
+import logo from '../../assets/logo.png'
 
-import "./Navbar.css";
+import './Navbar.css'
 
 export default function NavBar() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(false)
 
   const handleClick = () => {
-    setClick(!click);
-  };
+    setClick(!click)
+  }
 
   const closeMobileMenu = () => {
-    setClick(false);
-  };
+    setClick(false)
+  }
 
   return (
     <nav className="navbar">
@@ -22,9 +22,9 @@ export default function NavBar() {
           <img className="navbar-logo" src={logo} alt="logo"></img>
         </HashLink>
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
             <HashLink
               to="/#about"
@@ -36,22 +36,14 @@ export default function NavBar() {
           </li>
           <li className="nav-item">
             <HashLink
-              to="/#formation"
+              to="/#menuSkill"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Formation & Compétence
             </HashLink>
           </li>
-          <li className="nav-item">
-            <HashLink
-              to="/#experience"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Expérience
-            </HashLink>
-          </li>
+
           <li className="nav-item">
             <HashLink
               to="/#activity"
@@ -73,5 +65,5 @@ export default function NavBar() {
         </ul>
       </div>
     </nav>
-  );
+  )
 }

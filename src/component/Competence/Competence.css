@@ -1,10 +1,8 @@
 .skill {
-  padding-top: 6em;
+  text-align: center;
 }
-
 .skill-prog {
   flex-direction: column;
-  margin-left: 10em;
 }
 
 .skill-prog-title {
@@ -25,6 +23,9 @@
   padding-bottom: 3px;
 }
 @media (max-width: 960px) {
+  .skill-prog {
+    margin: 3em;
+  }
   .skill-container {
     margin-left: 3em;
   }

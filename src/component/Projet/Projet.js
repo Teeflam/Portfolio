@@ -1,13 +1,13 @@
-import React from "react";
-import "./Projet.css";
-import late from "../../assets/late.png";
-import rdv from "../../assets/rdv.png";
-import fevent from "../../assets/fevent.png";
-import sql from "../../assets/sql.png";
-import java from "../../assets/java.png";
-import unity from "../../assets/unity.png";
-import react from "../../assets/react.png";
-import nodejs from "../../assets/node.png";
+import React from 'react'
+import './Projet.css'
+import late from '../../assets/late.png'
+import rdv from '../../assets/rdv.png'
+import fevent from '../../assets/fevent.png'
+import sql from '../../assets/sql.png'
+import java from '../../assets/java.png'
+import unity from '../../assets/unity.png'
+import react from '../../assets/react.png'
+import nodejs from '../../assets/node.png'
 
 export const Projet = () => {
   return (
@@ -22,11 +22,11 @@ export const Projet = () => {
               <p className="project-title">Don't Be Late</p>
               <p className="project-describe">
                 Jeux de plateforme 2D. <br />
-                Vous incarner le rôle d'une élève qui n'a jamais été en retard
-                qui devras arrivé à l'ecole à l'heure mais le monde à changer un
-                événement apocalyptique sur la terre à eu lieu mais peu importe
-                les circonstance rien ne pourras vous empêcher d'arrivé a
-                l'heure peu importe les obstacles..
+                Vous incarnez le rôle d'une élève qui n'a jamais été en retard
+                qui doit arriver à l’école à l'heure mais le monde a changé et
+                un événement apocalyptique a eu lieu ssur la Terre mais peu
+                importe les circonstances rien ne pourra vous empêchez d'arriver
+                à l'heure peu importe les obstacles...
               </p>
             </div>
             <div className="project-dev">
@@ -48,11 +48,11 @@ export const Projet = () => {
                 <br />
                 L'application va permettre au médecin de pouvoir avoir tout sur
                 la main la création de nouveau client,ajouter un rendez-vous,
-                les information de la séanceet aussi un planning détaillés des
+                les informations de la séance et aussi un planning détaillé des
                 rendez-vous à venir.
                 <br />
                 Une partie client est aussi mis en place pour que les clients
-                voient les rendez-vous à venir
+                voient les rendez-vous à venir.
               </p>
             </div>
             <div className="project-dev">
@@ -79,5 +79,5 @@ export const Projet = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

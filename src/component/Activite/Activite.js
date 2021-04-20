@@ -1,10 +1,10 @@
-import React from "react";
-import "./Activite.css";
-import efrei from "../../assets/efreiint.png";
-import esport from "../../assets/4esport.png";
-import anime1 from "../../assets/minato.png";
-import anime2 from "../../assets/kimetsu.png";
-import FadeInSection from "./../FadeInSection";
+import React from 'react'
+import './Activite.css'
+import efrei from '../../assets/efreiint.png'
+import esport from '../../assets/4esport.png'
+import anime1 from '../../assets/minato.png'
+import anime2 from '../../assets/kimetsu.png'
+import FadeInSection from './../FadeInSection'
 
 export const Activite = () => {
   return (
@@ -32,12 +32,11 @@ export const Activite = () => {
           <p>Anime / Manga </p>
           <div className="activity-picture">
             <FadeInSection>
-              <img className="activity-anime1" src={anime1} alt="anime" />
-              <img className="activity-anime2" src={anime2} alt="anime" />
+              <img className="activity-anime1" src={anime2} alt="anime" />
             </FadeInSection>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

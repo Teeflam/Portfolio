@@ -1,9 +1,9 @@
-import React from "react";
-import french from "../../assets/french.png";
-import british from "../../assets/british.png";
-import china from "../../assets/china.png";
-import spanish from "../../assets/spanish.png";
-import "./Competence.css";
+import React from 'react'
+import french from '../../assets/french.png'
+import british from '../../assets/british.png'
+import china from '../../assets/china.png'
+import spanish from '../../assets/spanish.png'
+import './Competence.css'
 
 export const Competence = () => {
   return (
@@ -17,7 +17,7 @@ export const Competence = () => {
         <p className="skill-prog-content">C , C++, C#, Java , Python</p>
         <div className="skill-prog-title">Web Development</div>
         <p className="skill-prog-content">
-          HTML/CSS, Javascript,PHP, Node.js, Java, React , SQL, MongoDB
+          HTML/CSS, Javascript,PHP, Node.js, Java, React, Angular, SQL, MongoDB
         </p>
       </div>
 
@@ -34,5 +34,5 @@ export const Competence = () => {
         <p className="skill-lang-name"> Espagnol : Pré-Intermédiare</p>
       </div>
     </div>
-  );
-};
+  )
+}

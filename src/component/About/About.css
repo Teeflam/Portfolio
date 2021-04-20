@@ -10,10 +10,11 @@
   font-size: 2em;
 }
 .about-picture {
+  padding-top: 0.9em;
   width: 300px;
 }
 .about-description {
-  font-size: 1.8em;
+  font-size: 1.5em;
   text-align: center;
   width: 800px;
 }

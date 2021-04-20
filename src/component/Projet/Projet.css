@@ -38,10 +38,14 @@
   z-index: 3;
 }
 
+.project-dev-tools {
+  padding: 0.5em;
+  text-align: center;
+}
 .project-text {
   height: 25em;
   width: 25em;
-  background-color: rgba(0, 0, 0, 0.212);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .project-title {
   font-size: 2em;

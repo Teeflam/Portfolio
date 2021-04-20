@@ -1,5 +1,4 @@
-import { FormationInfo } from "./FormationInfo";
-import "./Formation.css";
+import { FormationInfo } from './FormationInfo'
 
 export const Formation = () => {
   return (
@@ -30,5 +29,5 @@ export const Formation = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
